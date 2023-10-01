@@ -1,0 +1,159 @@
+.encadre-horaire {
+    background-color: #ffffff;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    border-radius: 10px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+}
+
+.encadre-horaire h2 {
+    text-transform: uppercase;
+    color: #ff5950;
+    font-family: "source-sans-pro", sans-serif;
+    font-size: 2.5em;
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bold;
+    box-shadow: 0px 3px 8px #0000001f;
+    width: 568px;
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+.encadre-horaire table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.encadre-horaire th {
+    background-color: #000000;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.encadre-horaire th:first-child {
+    border-radius: 15px 0px 0px 0px;
+}
+
+.encadre-horaire th:last-child {
+    border-radius: 0px 0px 0px 0px;
+}
+
+.encadre-horaire td {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+}
+
+.encadre-horaire tr:nth-child(odd) {
+    background-color: #f9f9f9;
+}
+
+.encadre-horaire td:first-child {
+    font-weight: bold;
+}
+
+.encadre-horaire td:nth-child(3) {
+    text-align: center;
+}
+
+.encadre-horaire td:last-child {
+    text-align: center;
+}
+
+.table-container {
+    max-height: 650px;
+    overflow-y: auto;
+    border-radius: 15px;
+    box-shadow: 0px 3px 10px #0000003b;
+}
+
+thead {
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    background-color: #666;
+    color: white;
+    text-align: center;
+}
+
+.encadre-horaire tbody {
+    max-height: 400px;
+    overflow-y: auto;
+    color: #333;
+}
+
+.conteneur-groupe {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.groupe {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.img-groupe {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.informations {
+    flex: 1;
+    color: black;
+    font-family: "source sans pro";
+}
+
+.nom,
+.ville,
+.date-heure {
+    margin: 0;
+}
+
+td img {
+    border-radius: 25px;
+    box-shadow: 0px 1px 8px rgb(0 0 0 / 68%);
+}
+
+.nom {
+    font-weight: bold;
+    font-size: larger;
+}
+
+.date-heure {
+    font-style: italic;
+    font-size: smaller;
+}
+
+.table {
+    border-radius: 15px;
+}
+
+.table-container::-webkit-scrollbar {
+    width: 12px;
+    background-color: transparent;
+}
+
+
+.table-container::-webkit-scrollbar-thumb {
+    background-color: #ff5950;
+    border-radius: 0px 15px 15px 0px;
+}
+
+main {
+    background-color: white;
+}
+
+body {
+    background-color: white;
+}

@@ -1,0 +1,466 @@
+/* ***********************************************   Nav  ************************************************** */
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-top: 20px;
+    position: relative;
+    z-index: 2;
+
+}
+
+a.btn.btn-light.deconnexion {
+    background-color: #8041ff5e;
+    border: none;
+    width: 210px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-right: 0px;
+    transition: 0.2s ease-in-out;
+    font-family: "source-sans-pro", sans-serif;
+}
+
+a.btn.btn-light:hover {
+    background-color: #8041ffbf;
+    color: white;
+}
+
+.liens-nav {
+    padding-top: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.home {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.liens-nav a {
+    color: rgb(255, 255, 255);
+    font-family: "source-sans-pro", sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 17px;
+    padding: 0px 40px 1px 3px;
+}
+
+p.programmation {
+    color: rgb(255, 255, 255);
+    font-family: "source-sans-pro", sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 17px;
+    display: inline;
+    padding: 0px 40px 0px 3px;
+    transition: 0.2s ease-in-out;
+}
+
+p.programmation:hover {
+    color: rgb(197, 197, 197);
+
+}
+
+.dropdown-content a {
+    padding: none;
+}
+
+.span-home {
+    position: relative;
+}
+
+span.home {
+    position: absolute;
+    bottom: 5px;
+    right: -3px;
+}
+
+.contact {
+    display: flex;
+    justify-content: space-around;
+}
+
+a.lien {
+    transition: 0.2s ease-in-out;
+}
+
+a.lien:hover {
+    color: rgb(197, 197, 197);
+}
+
+/* *********************************************** header   ************************************************** */
+
+
+
+
+.img {
+    position: relative;
+    background-image: url(../img/pexels-pixabay-164693.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    height: 404px;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.682);
+    z-index: 1;
+}
+
+.h1 {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3%;
+}
+
+.h1 img:last-child {
+    transform: scaleX(-1);
+}
+
+h1 {
+    color: white;
+    font-family: "source-sans-pro", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 88px;
+}
+
+h2 {
+    position: relative;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    z-index: 6;
+    width: fit-content;
+    color: white;
+    font-size: 68px;
+    font-family: "source-sans-pro", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+
+}
+
+/* *********************************************** Main ************************************************** */
+main {
+    margin-bottom: 100px;
+}
+
+h3 {
+    text-align: center;
+    font-size: 30px;
+    font-family: "source-sans-pro", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+main p.admission {
+    text-align: center;
+    font-size: 20px;
+    font-family: "source-sans-pro", sans-serif;
+    line-height: 13px;
+    font-style: normal;
+}
+
+main p.admission2 {
+    text-align: center;
+    font-size: 20px;
+    font-family: "source-sans-pro", sans-serif;
+    line-height: 13px;
+    font-style: normal;
+    color: #888888;
+}
+
+.conteneur-forfait-reservation {
+    display: flex;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    width: 55%;
+    margin-top: 62px;
+
+}
+
+.forfaits {
+    width: 550px;
+    height: 320px;
+    margin-right: 25px;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    box-shadow: 0px 3px 8px #0000004f;
+}
+
+.info-conteneur {
+    width: 200px;
+    height: 120px;
+    background-color: grey;
+}
+
+
+
+.forfaits .info {
+    display: flex;
+    justify-content: space-around;
+    background-color: #8041ff;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 150;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.forfaits .info p {
+    margin-bottom: 0px;
+    color: white;
+    font-family: "source-sans-pro", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+}
+
+.forfaits .info p.nom {
+    font-size: 25px;
+    font-family: "source-sans-pro", sans-serif;
+    font-weight: bold;
+}
+
+.forfaits .info p.prix {
+    font-size: 25px;
+    font-family: "source-sans-pro", sans-serif;
+    font-weight: bold;
+}
+
+.forfaits .info p:first-child {
+    margin-top: 25px;
+
+}
+
+.forfaits .info p:last-child {
+    margin-bottom: 25px;
+
+}
+
+.forfaits .contenue {
+    display: flex;
+    justify-content: space-around;
+    background-color: #ffffff;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.forfaits .contenue p {
+    margin-bottom: 0px;
+    font-family: "source-sans-pro", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+}
+
+
+
+.forfaits .contenue p:first-child {
+    margin-top: 25px;
+
+}
+
+.forfaits .contenue p:last-child {
+
+    margin-bottom: 25px;
+}
+
+.forfaits .contenue:last-child {
+    border-radius: 0px 0px 10px 10px;
+
+}
+
+h4.forfait {
+    color: black;
+    font-family: "source-sans-pro", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+}
+
+.form {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+
+.form form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.form form * {
+    margin-bottom: 15px;
+}
+
+.submit {
+    width: 200px;
+    height: 50px;
+    background-color: #8041ff;
+    color: white;
+    font-family: "source-sans-pro", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    border: none;
+    border-radius: 4px;
+    transition: 0.2s ease-in-out;
+    font-size: 18px;
+}
+
+.submit:hover {
+
+    background-color: #292929;
+
+}
+
+
+
+
+
+/* ************************************ date picker********************************** */
+
+/* Style du conteneur du date picker */
+input[type="date"] {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    width: 200px;
+
+}
+
+/* Style de la flèche de défilement */
+input[type="date"]::-webkit-inner-spin-button,
+input[type="date"]::-webkit-outer-spin-button {
+    appearance: none;
+    display: none;
+}
+
+/* Style du calendrier popup (uniquement pour les navigateurs WebKit comme Chrome) */
+input[type="date"]::-webkit-calendar-picker-indicator {
+    background-color: #ffffff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 2px;
+}
+
+/* Style du texte à l'intérieur du date picker */
+input[type="date"]::placeholder {
+    color: #999;
+}
+
+/* ***************************************************************************** */
+
+table {
+    width: 100% !important;
+    margin-left: 50%;
+    transform: translateX(-50%);
+
+}
+
+.table {
+
+    width: 55%;
+    margin-left: 50%;
+    transform: translateX(-50%);
+
+    max-height: 350px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    margin-bottom: 3px;
+
+    /* Personnalisation de la barre de défilement */
+    scrollbar-width: thin;
+    /* Utilisé pour Firefox */
+    scrollbar-color: transparent transparent;
+    /* Utilisé pour Firefox */
+
+    &::-webkit-scrollbar {
+        width: 8px;
+        /* Largeur de la barre de défilement */
+    }
+
+    &::-webkit-scrollbar-track {
+        background: transparent;
+        /* Couleur de fond de la piste */
+    }
+
+    &::-webkit-scrollbar-thumb {
+        background: rgba(0, 0, 0, 0.307);
+        /* Couleur du "thumb" (poignée) */
+        border-radius: 4px;
+        /* Coins arrondis du thumb */
+    }
+
+    &:hover::-webkit-scrollbar-thumb {
+        background: rgba(0, 0, 0, 0.3);
+        /* Couleur du thumb lors du survol */
+    }
+}
+
+h2.liste-reservation {
+    font-size: 40px;
+
+    text-align: center;
+    color: #000000;
+    margin-top: 100px;
+
+}
+
+th {
+    text-align: center;
+}
+
+td {
+    text-align: center;
+}
+
+
+a.btn.btn-light.supprimer {
+    background-color: #8041ff;
+    color: white;
+    font-family: "source-sans-pro", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    transition: 0.2s ease-in-out;
+
+}
+
+a.btn.btn-light.supprimer:hover {
+    background-color: #292929;
+
+}
+
+p.sous-total {
+    text-align: right;
+    font-family: "source-sans-pro", sans-serif;
+    font-weight: bold;
+    margin-right: 7px;
+
+}
+
+.total {
+    width: 55%;
+    margin: auto;
+
+}
